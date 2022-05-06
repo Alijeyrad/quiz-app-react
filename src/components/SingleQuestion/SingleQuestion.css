@@ -1,0 +1,10 @@
+.question {
+  position: absolute;
+  right: -600px;
+  transition-duration: 700ms;
+}
+
+.question.visible {
+  position: relative;
+  right: 0px;
+}

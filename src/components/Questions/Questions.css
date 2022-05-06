@@ -1,0 +1,13 @@
+.questions {
+  opacity: 0;
+  transition-duration: 700ms;
+}
+
+.questions.active {
+  opacity: 1;
+}
+
+.questionsDiv {
+  overflow: hidden;
+  position: relative;
+}

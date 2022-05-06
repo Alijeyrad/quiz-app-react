@@ -1,0 +1,34 @@
+.card-header, .card-footer {
+  background-color: #e9ecef;
+  font-weight: 700;
+}
+
+.myCard {
+  min-height: 360px;
+}
+
+.welcomeCard {
+  opacity: 0;
+  transition-duration: 700ms;
+}
+
+.welcomeCard.visible {
+  opacity: 1;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+.nameInput {
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}

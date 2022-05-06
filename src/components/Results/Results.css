@@ -1,0 +1,12 @@
+.results {
+  opacity: 0;
+  transition-duration: 700ms;
+}
+
+.results.visible {
+  opacity: 1;
+}
+
+p a:hover {
+  color: #333;
+}
